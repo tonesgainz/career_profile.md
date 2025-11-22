@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tony V. Nguyen - DevOps Engineer Resume">
+    <meta name="keywords" content="DevOps, Python, AWS, SQL, AI, Machine Learning, Data Engineering">
+    <title>Tony V. Nguyen - DevOps Engineer Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 40px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 3px solid #2c3e50;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+
+        .contact-info {
+            color: #555;
+            font-size: 0.95em;
+            margin-top: 10px;
+        }
+
+        .contact-info a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 8px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+
+        h3 {
+            color: #34495e;
+            margin-top: 20px;
+            margin-bottom: 5px;
+            font-size: 1.2em;
+        }
+
+        .job-title {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 5px;
+        }
+
+        .company {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .date {
+            color: #7f8c8d;
+            font-style: italic;
+            font-size: 0.9em;
+        }
+
+        .job-description {
+            font-style: italic;
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .tech-stack {
+            background-color: #ecf0f1;
+            padding: 8px 12px;
+            border-radius: 5px;
+            margin-top: 10px;
+            font-size: 0.9em;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 200px 1fr;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+
+        .skill-category {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .skill-items {
+            color: #555;
+        }
+
+        .summary {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-left: 4px solid #3498db;
+            margin-bottom: 20px;
+            font-size: 0.95em;
+        }
+
+        .achievements {
+            background-color: #e8f4f8;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .achievement-item {
+            margin-bottom: 8px;
+        }
+
+        .achievement-label {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .education-item {
+            margin-bottom: 15px;
+        }
+
+        .degree {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .university {
+            color: #555;
+        }
+
+        .portfolio-project {
+            background-color: #f8f9fa;
+            padding: 10px;
+            border-left: 3px solid #3498db;
+            margin-bottom: 10px;
+        }
+
+        @media print {
+            body {
+                background-color: #fff;
+                padding: 0;
+            }
+            .container {
+                box-shadow: none;
+                padding: 20px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+            .job-title {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>TONY V. NGUYEN</h1>
+            <div class="contact-info">
+                <strong>Email:</strong> <a href="mailto:tony@snfactor.com">tony@snfactor.com</a> |
+                <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/tonenv" target="_blank">linkedin.com/in/tonenv</a> |
+                <strong>GitHub:</strong> <a href="https://github.com/tonesgainz" target="_blank">github.com/tonesgainz</a>
+                <br>
+                <strong>Location:</strong> Santa Barbara, CA | <strong>Willing to Relocate:</strong> San Francisco Bay Area (Q2 2026)
+            </div>
+        </header>
+
+        <section>
+            <h2>PROFESSIONAL SUMMARY</h2>
+            <div class="summary">
+                DevOps Engineer and technical leader with proven track record scaling AI SaaS platforms, building automation infrastructure,
+                and driving operational excellence. Architected systems serving 220K+ users across 180+ countries at Y Combinator W24 startup.
+                Strong expertise in Python, SQL, AWS cloud infrastructure, and AI/ML integration. Generated $850K+ revenue through data-driven
+                optimization and automation. Seeking DevOps Engineering, Data Engineering, or AI/ML Operations roles at innovative tech companies.
+                <br><br>
+                <strong>Core Competencies:</strong> DevOps Engineering | Cloud Infrastructure (AWS) | Python Development | SQL & Database Design |
+                AI/ML Integration | Process Automation | Data Analytics | CI/CD Pipelines | SaaS Scalability | Cross-Functional Leadership
+            </div>
+        </section>
+
+        <section>
+            <h2>TECHNICAL SKILLS</h2>
+            <div class="skills-grid">
+                <div class="skill-category">Programming & Dev</div>
+                <div class="skill-items">Python (Advanced), SQL (MySQL, PostgreSQL), JavaScript, Node.js, React.js, Git, REST APIs</div>
+
+                <div class="skill-category">Cloud & DevOps</div>
+                <div class="skill-items">AWS (Bedrock, EC2, S3, Lambda, RDS), CI/CD Pipelines, Docker, Linux/Unix, Infrastructure Automation</div>
+
+                <div class="skill-category">AI & Machine Learning</div>
+                <div class="skill-items">AWS Bedrock, Claude API, OpenAI API, Hunyuan T1, DeepSeek API, MCP Integration, GenAI Automation</div>
+
+                <div class="skill-category">Data & Analytics</div>
+                <div class="skill-items">Pandas, NumPy, Scikit-learn, Power BI, Tableau, Advanced Excel, Predictive Analytics, Apache Spark</div>
+
+                <div class="skill-category">E-commerce & APIs</div>
+                <div class="skill-items">Shopify API, Amazon MWS API, Meta Ads API, Google Ads API, Slack API, WeCom API</div>
+
+                <div class="skill-category">Operations</div>
+                <div class="skill-items">Lean Six Sigma, Process Optimization, ERP Systems, Manufacturing Execution Systems, Value Stream Mapping</div>
+
+                <div class="skill-category">Languages</div>
+                <div class="skill-items">English (Native), Mandarin (Fluent), Cantonese (Fluent)</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>PROFESSIONAL EXPERIENCE</h2>
+
+            <article>
+                <div class="job-title">
+                    <h3><span class="company">DevOps Engineer | RevisionDojo (YC W24)</span></h3>
+                    <span class="date">Aug 2025 – Dec 2025</span>
+                </div>
+                <div class="job-description">San Francisco, CA | EdTech AI SaaS Platform - One of fastest-growing companies in Y Combinator W24 batch</div>
+                <ul>
+                    <li>Architected end-to-end CRM automation infrastructure and sales operations pipeline using Python, SQL, and Slack API integrations</li>
+                    <li>Scaled platform infrastructure to reliably serve <strong>220,000+ International Baccalaureate students</strong> across 180+ countries</li>
+                    <li>Designed and implemented scalable Go-To-Market operations framework supporting enterprise partnerships and B2B expansion</li>
+                    <li>Collaborated directly with CEO to develop custom SQL queries and KPI dashboards, driving data-driven decision-making</li>
+                    <li>Built analytics infrastructure tracking user engagement, conversion funnels, and revenue metrics across global user base</li>
+                    <li>Developed real-time monitoring and alerting systems for critical business metrics using Python and PostgreSQL</li>
+                </ul>
+                <div class="tech-stack"><strong>Technologies:</strong> Python, SQL (PostgreSQL), Slack API, AWS, Git, REST APIs, CI/CD pipelines</div>
+            </article>
+
+            <article>
+                <div class="job-title">
+                    <h3><span class="company">Founder & CEO | SNF Global LLC</span></h3>
+                    <span class="date">2022 – Present</span>
+                </div>
+                <div class="job-description">Santa Barbara, CA | Vertically Integrated Manufacturing & E-commerce Business</div>
+                <ul>
+                    <li>Founded and scaled vertically integrated manufacturing/e-commerce business from concept to <strong>$50,000 revenue in first 9 months</strong></li>
+                    <li>Engineered AI automation workflows using Claude Code, MCP integration, and SQL databases, increasing operational efficiency 30%</li>
+                    <li>Implemented automated inventory management, order processing, and CRM systems using Python and cloud infrastructure</li>
+                    <li>Built custom analytics dashboards for sales forecasting, inventory optimization, and profitability analysis</li>
+                    <li>Secured <strong>AWS Premier Partner backing</strong> with significant credits and full GenAI startup accelerator support</li>
+                    <li>Currently developing GenAI-powered carbon compliance platform on AWS Bedrock with PostgreSQL backend</li>
+                </ul>
+                <div class="tech-stack"><strong>Technologies:</strong> Python, SQL, AWS Bedrock, Claude API, MCP, Shopify API, E-commerce APIs, Analytics Platforms</div>
+            </article>
+
+            <article>
+                <div class="job-title">
+                    <h3><span class="company">Lead Software Engineer & Director | Wiko Cutlery Ltd</span></h3>
+                    <span class="date">2019 – 2025</span>
+                </div>
+                <div class="job-description">Hong Kong, US & EU | Manufacturing Operations Across 3 Facilities</div>
+                <ul>
+                    <li>Architected and deployed Wiko AI agent leveraging Hunyuan T1 and DeepSeek API with WeCom integration for workflow automation</li>
+                    <li>Automated operational workflows including production scheduling, inventory management, and cross-facility communication</li>
+                    <li><strong>Reduced manual coordination overhead by 35%</strong> through intelligent AI-powered workflow automation</li>
+                    <li>Led operational transformation across three manufacturing facilities, implementing lean manufacturing and process optimization</li>
+                    <li><strong>Reduced lead times by 25%</strong> through strategic process improvements, automation, and supply chain optimization</li>
+                    <li><strong>Increased production capacity by 40%</strong> by implementing GenAI-powered software to eliminate bottlenecks</li>
+                    <li>Implemented real-time production monitoring, quality control systems, and custom ERP integrations</li>
+                    <li>Built predictive maintenance systems minimizing equipment downtime and operational disruptions</li>
+                </ul>
+                <div class="tech-stack"><strong>Technologies:</strong> Python, SQL, Hunyuan T1 API, DeepSeek API, WeCom API, Manufacturing Execution Systems, ERP Integration</div>
+            </article>
+
+            <article>
+                <div class="job-title">
+                    <h3><span class="company">Chief Marketing Officer | Linoroso Brands Ltd</span></h3>
+                    <span class="date">2023 – 2025</span>
+                </div>
+                <div class="job-description">Remote | E-commerce & Multi-Channel Retail Operations</div>
+                <ul>
+                    <li>Drove <strong>$800,000 annual revenue</strong> through strategic omnichannel marketplace operations (Amazon FBA, Walmart, Wayfair)</li>
+                    <li>Built automated omni-channel social media funnels integrating Meta, Google Ads, and Shopify for customer acquisition</li>
+                    <li>Optimized inventory allocation across multiple fulfillment centers using Seller AI analytics and predictive modeling</li>
+                    <li><strong>Improved inventory turnover by 20%</strong> while reducing carrying costs through data-driven allocation strategies</li>
+                    <li>Implemented A/B testing frameworks for marketing campaigns, achieving <strong>15%+ improvement in ROAS</strong></li>
+                    <li>Built marketing automation workflows integrating Meta Business Suite, Google Ads API, and Shopify API</li>
+                    <li>Developed custom analytics dashboards for real-time campaign performance monitoring using Python and SQL</li>
+                </ul>
+                <div class="tech-stack"><strong>Technologies:</strong> Python, SQL, Meta Ads API, Google Ads API, Shopify API, Amazon MWS API, Marketing Analytics Tools</div>
+            </article>
+        </section>
+
+        <section>
+            <h2>EDUCATION</h2>
+            <div class="education-item">
+                <div class="degree">Bachelor of Arts (BA) in Environmental Studies</div>
+                <div class="university">University of California, Santa Barbara (UCSB) | Expected Graduation: April 2026</div>
+                <div><strong>Relevant Coursework:</strong> Environmental Framework Analysis, Life Cycle Assessment (LCA), ESG Analysis, Urban Planning</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>CERTIFICATIONS</h2>
+            <div>
+                <strong>IBM Data Science Professional Certificate</strong> (Coursera)<br>
+                Specializations: Data-Driven Decision Making, Process Analytics, Machine Learning Fundamentals
+            </div>
+        </section>
+
+        <section>
+            <h2>LEADERSHIP & ACTIVITIES</h2>
+            <ul>
+                <li><strong>Founder & President</strong> | The Blockchain Club at UCSB (2020) - Built campus community around blockchain technology and Web3; organized technical workshops</li>
+                <li><strong>Diversity, Equity, and Inclusion Chair</strong> | Alpha Tau Omega Fraternity, UCSB - Led DEI initiatives and cultural competency programs</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>KEY ACHIEVEMENTS</h2>
+            <div class="achievements">
+                <div class="achievement-item">
+                    <span class="achievement-label">Revenue Generation:</span> $850,000+ combined revenue generated across ventures ($800K Linoroso + $50K SNF Global)
+                </div>
+                <div class="achievement-item">
+                    <span class="achievement-label">Platform Scalability:</span> Scaled SaaS platform infrastructure serving 220,000+ users across 180+ countries
+                </div>
+                <div class="achievement-item">
+                    <span class="achievement-label">Operational Efficiency:</span> Increased production capacity 40% and reduced lead times 25% through process optimization
+                </div>
+                <div class="achievement-item">
+                    <span class="achievement-label">AI/Automation Impact:</span> Reduced manual coordination overhead 35% through AI-powered workflow automation
+                </div>
+                <div class="achievement-item">
+                    <span class="achievement-label">Inventory Optimization:</span> Improved inventory turnover 20% using data-driven analytics and predictive modeling
+                </div>
+                <div class="achievement-item">
+                    <span class="achievement-label">AWS Partnership:</span> Secured AWS Premier Partner backing with credits for GenAI platform development
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>PORTFOLIO PROJECTS</h2>
+            <div class="portfolio-project">
+                <strong>GenAI Carbon Compliance Platform</strong> (In Development)<br>
+                Automated carbon footprint analysis platform using AWS Bedrock, Claude API, Python, and PostgreSQL
+            </div>
+            <div class="portfolio-project">
+                <strong>Predictive Sales Forecasting System</strong><br>
+                ML-powered sales forecasting using time series analysis with Python, Scikit-learn, and FastAPI
+            </div>
+            <div class="portfolio-project">
+                <strong>Multi-Channel E-commerce Analytics Engine</strong><br>
+                Unified analytics platform for Amazon, Shopify, Walmart data with Python, SQL, and ETL pipelines
+            </div>
+        </section>
+
+        <footer style="text-align: center; margin-top: 40px; padding-top: 20px; border-top: 1px solid #ccc; color: #777; font-style: italic;">
+            References available upon request
+        </footer>
+    </div>
+</body>
+</html>
